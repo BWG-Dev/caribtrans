@@ -189,6 +189,7 @@ while ( have_posts() ) :
 						$email = get_field( 'ct_email', $location->ID );
 						$toll_free = get_field( 'ct_phone_toll_free', $location->ID );
 						?>
+
                         <div class="location-single" id="location--<?php echo $location->ID; ?>">
                             <div class="ct_accordion_header" data-id="<?php echo $location->ID; ?>">
                                 <h3 class="location-name"><?php echo $location->post_title; ?></h3>
