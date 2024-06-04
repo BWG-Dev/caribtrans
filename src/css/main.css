@@ -1,0 +1,71 @@
+#map { height: 500px; }
+
+.location-type, .location-name, .location-listing h3,
+.location-listing h4,
+.location-listing h5{
+    font-family: "League Spartan", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: bold !important;
+    font-style: normal;
+}
+
+.location-name{
+    font-size: 30px;
+}
+
+.location-filter{
+    width: 21px !important;
+    height: 21px !important;
+    margin-right: 15px;
+}
+
+#destinations-filter:checked{
+    background: #FF761C;
+    border: 0;
+    color: white !important;
+}
+
+#receiving-filter:checked{
+    background: #DD2B26;
+    border: 0;
+    color: white !important;
+}
+
+.location-single{
+    padding-left: 45px ;
+}
+
+.ct_accordion_header{
+    display: flex;;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ct_accordion_header i{
+    font-size: 30px;
+}
+
+.location-listing a{
+    color: #ff761c;
+    font-family: "Glacial Indifference Regular", Sans-serif;
+    font-weight: 400;
+}
+
+.ct-filters label{
+    font-family: "Glacial Indifference Regular", Sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ct-filters label[for='receiving']{
+    color: #DD2B26;
+}
+
+.btn-primary{
+    background: #ff761c;
+    color: white !important;
+    padding: 10px 18px;
+    font-family: "Glacial Indifference Regular", Sans-serif;
+    font-weight: bold !important;
+    text-decoration: none;
+}
