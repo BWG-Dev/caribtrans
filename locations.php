@@ -41,7 +41,7 @@ while ( have_posts() ) :
             <!-- Corporate -->
             <div class="row corporate my-5">
                 <div class="col-12">
-                    <h4 class="location-type">Corporate Office</h4>
+                    <h4 class="location-type">Corporate Office.</h4>
                 </div>
                 <div class="col-12 pl-5 ml-5 location-listing">
                     <?php
