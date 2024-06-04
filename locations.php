@@ -99,7 +99,7 @@ while ( have_posts() ) :
             <!-- Destinations -->
             <div class="row destination my-5">
                 <div class="col-12">
-                    <h4 class="location-type">Destinations</h4>
+                    <h4 class="location-type">Destinations.</h4>
                 </div>
                 <div class="col-12 pl-5 ml-5 location-listing">
 					<?php
@@ -166,7 +166,7 @@ while ( have_posts() ) :
             <!-- Receiving -->
             <div class="row destination my-5">
                 <div class="col-12">
-                    <h4 class="location-type">Receiving</h4>
+                    <h4 class="location-type">Receiving.</h4>
                 </div>
                 <div class="col-12 pl-5 ml-5 location-listing">
 					<?php
